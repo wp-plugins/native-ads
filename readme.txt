@@ -45,6 +45,9 @@ Please visit http://spoti.io
 
 == Changelog ==
 
+= 1.01 =
+* Testing SVN
+
 = 1.00 =
 * Initial release
 
