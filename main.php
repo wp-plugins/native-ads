@@ -3,7 +3,7 @@
  * Plugin Name: Native-ads
  * Plugin URI: http://spoti.io
  * Description: Simple automated advertising opportunity for you, allowing advertisers to deliver relevant, videos and native ads placed in the heart of your editorial content. Once activated you'll find me under <strong>Settings &rarr; nativeads settings</strong>.
- * Version: 0.2
+ * Version: 0.3
  * Author: Roberto Gomez
  * Author URI: http://spoti.io
  */

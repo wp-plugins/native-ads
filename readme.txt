@@ -39,22 +39,26 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Screenshots ==
 
-1. Video advertising demo on mobile. Ads are responsive
-2. Video advertising demo on PC. Ads are responsive
-3. Plugin configuration
+1. Embedded sponsored Tweets on mobile. Ads are responsive
+2. Video advertising on mobile. Ads are responsive
+3. Video advertising on PC. Ads are responsive
+4. Plugin configuration
 
 == Support ==
 
-Please visit http://spoti.io
+Please visit http://spoti.io or http://kazoon.tv in spanish
 
 == Changelog ==
-= 1.0.2 =
+= 0.3 =
+* New: Embedded sponsored Tweets
+
+= 0.2 =
 * Text description update
 
-= 1.0.1 =
+= 0.1 =
 * Screenshots update
 
-= 1.00 =
+= 0.0 =
 * Initial release
 
 == Upgrade Notice ==
