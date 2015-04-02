@@ -222,6 +222,7 @@ class nativeadsSettings
 			<input type="checkbox" name="nativeadsOptions[countryFilter_field][ES]" value="1" <?php if (isset($countryList['ES']) || get_option( 'nativeadsOptions_countryFilter_field' ) == false) echo 'checked="checked"'; ?> />Spain<br/>
 			<input type="checkbox" name="nativeadsOptions[countryFilter_field][GB]" value="1" <?php if (isset($countryList['GB'])) echo 'checked="checked"'; ?> />UK<br/>
 			<input type="checkbox" name="nativeadsOptions[countryFilter_field][IT]" value="1" <?php if (isset($countryList['IT'])) echo 'checked="checked"'; ?> />Italy<br/>
+      <input type="checkbox" name="nativeadsOptions[countryFilter_field][BG]" value="1" <?php if (isset($countryList['BG'])) echo 'checked="checked"'; ?> />Bulgaria<br/>
 			<input type="checkbox" name="nativeadsOptions[countryFilter_field][US]" value="1" <?php if (isset($countryList['US'])) echo 'checked="checked"'; ?> />USA<br/>
 			<input type="hidden" name="nativeadsOptions[countryFilter_field][n]" value="1" />
 		<?php
