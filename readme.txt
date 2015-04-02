@@ -22,7 +22,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Native ads.**
 
-- Native cross-screen advertising. Video ads plays when 50%+ viewable and can be contextually targeted by country. 
+- Native cross-screen advertising. Video ads plays when 50%+ viewable and can be contextually targeted by country.
 - Demo: http://spoti.io
 - The ads are served by content.spoti.io and contextually targeted by country using target.spoti.io
 
@@ -48,6 +48,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Please visit http://spoti.io
 
 == Changelog ==
+= 1.0.2 =
+* Text description update
+
 = 1.0.1 =
 * Screenshots update
 
