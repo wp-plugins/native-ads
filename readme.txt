@@ -40,8 +40,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Screenshots ==
 
 1. Sponsored Social Media ads on mobile or PC. Ads are responsive
-2. Video advertising on mobile or PC. Ads are responsive
-3. Video advertising on PC. Ads are responsive
+2. Sponsored Social Media twitter widget on mobile or PC.
+3. Video advertising on mobile or PC.
 4. Plugin configuration
 
 == Support ==
