@@ -4,7 +4,7 @@ Contributors: Roberto Gomez
 
 Donate link: http://spoti.io
 
-Tags: widget, advertising, video, native, responsive, inText, monetize, banner, plugin, social, HTML5
+Tags: native advertising, widget, advertising, video, native, responsive, InStream, monetize, banner, plugin, social, HTML5, twitter
 
 Requires at least: 3
 
@@ -12,7 +12,7 @@ Tested up to: 4.1.1
 
 Stable tag: 1
 
-Injects native video or text adverts into your WordPress content (inText). Restrict who sees ads by country and user.
+Injects native advertising into your WordPress content (inStream). Restrict who sees ads by country and user.
 
 License: GPLv2 or later
 
@@ -22,33 +22,36 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Native ads.**
 
-- Native cross-screen advertising. Video ads plays when 50%+ viewable and can be contextually targeted by country.
+- Native advertising will play when 50%+ viewable and can be contextually targeted by country.
+- The ads are served by content.spoti.io and contextually targeted by country.
+- When there is no ad to serve, we´ll serve your twitter SocialMedia widget.
 - Demo: http://spoti.io
-- The ads are served by content.spoti.io and contextually targeted by country using target.spoti.io
 
 == Installation ==
 
 - Install from WP Dashboard>>Plugins>>Add new plugin>>Search for 'Nativeads' plugin.
 - Fill in the form and click Send mail to get your unique Client ID.
-- Select for which countries you want to display ads.
+- Select for which countries you want native ads.
 
 == Frequently Asked Questions ==
 
 - For demos and questions, please visit http://spoti.io
-- Para preguntas y demos en español: visita http://kazoon.tv
 
 == Screenshots ==
 
-1. Embedded sponsored Tweets on mobile. Ads are responsive
-2. Video advertising on mobile. Ads are responsive
+1. Sponsored Social Media ads on mobile or PC. Ads are responsive
+2. Video advertising on mobile or PC. Ads are responsive
 3. Video advertising on PC. Ads are responsive
 4. Plugin configuration
 
 == Support ==
 
-Please visit http://spoti.io or http://kazoon.tv in spanish
+Please visit http://spoti.io
 
 == Changelog ==
+= 0.4 =
+* Updated: Country list
+
 = 0.3 =
 * New: Embedded sponsored Tweets
 

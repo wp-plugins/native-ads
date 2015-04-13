@@ -2,8 +2,8 @@
 /*
  * Plugin Name: Native-ads
  * Plugin URI: http://spoti.io
- * Description: Simple automated advertising opportunity for you, allowing advertisers to deliver relevant native ads placed in the heart of your content.
- * Version: 0.3
+ * Description: Simple native advertising network for mobile & PC, in the heart of your content.
+ * Version: 0.4
  * Author: Roberto Gomez
  * Author URI: http://spoti.io
  */
@@ -71,7 +71,7 @@ class nativeadsSettings
             ?>
             </form>
 		<?php } else if ($_GET['tab']=='demo1') { ?>
-			<iframe width="100%" height="700px" src="http://kazoon.tv/video-intext-demo/"></iframe>
+			<iframe width="100%" height="700px" src="http://spoti.io/en/native-advertising/"></iframe>
 		<?php } else if ($_GET['tab']=='demo2') { ?>
 			<iframe width="100%" height="700px" src="http://kazoon.tv/video-intext-autoplay/"></iframe>
 		<?php } else if ($_GET['tab']=='demo3') { ?>
@@ -94,7 +94,7 @@ class nativeadsSettings
 
          add_settings_section(
              'setting_section_id', // ID
-             'Native Ad will ad video or native advertising into the existing content', // Title
+             'Get native advertising inserted into your existing post & pages', // Title
              array( $this, 'print_section_info' ), // Callback
              'nativeads-settings' // Page
          );
@@ -109,7 +109,7 @@ class nativeadsSettings
 
 		add_settings_field(
             'countryFilter_field', // ID
-            'In which countries do you want to display ads?', // Title
+            'In which countries do you want to display native ads?', // Title
             array( $this, 'countryFilter_field_callback' ), // Callback
             'nativeads-settings', // Page
             'setting_section_id' // Section
@@ -217,13 +217,14 @@ class nativeadsSettings
 		?>
 
 			<br/>
-			<input type="checkbox" name="nativeadsOptions[countryFilter_field][GE]" value="1" <?php if (isset($countryList['GE'])) echo 'checked="checked"'; ?> />Germany<br/>
-			<input type="checkbox" name="nativeadsOptions[countryFilter_field][FR]" value="1" <?php if (isset($countryList['FR'])) echo 'checked="checked"'; ?> />France<br/>
 			<input type="checkbox" name="nativeadsOptions[countryFilter_field][ES]" value="1" <?php if (isset($countryList['ES']) || get_option( 'nativeadsOptions_countryFilter_field' ) == false) echo 'checked="checked"'; ?> />Spain<br/>
-			<input type="checkbox" name="nativeadsOptions[countryFilter_field][GB]" value="1" <?php if (isset($countryList['GB'])) echo 'checked="checked"'; ?> />UK<br/>
-			<input type="checkbox" name="nativeadsOptions[countryFilter_field][IT]" value="1" <?php if (isset($countryList['IT'])) echo 'checked="checked"'; ?> />Italy<br/>
-      <input type="checkbox" name="nativeadsOptions[countryFilter_field][BG]" value="1" <?php if (isset($countryList['BG'])) echo 'checked="checked"'; ?> />Bulgaria<br/>
 			<input type="checkbox" name="nativeadsOptions[countryFilter_field][US]" value="1" <?php if (isset($countryList['US'])) echo 'checked="checked"'; ?> />USA<br/>
+			<input type="checkbox" name="nativeadsOptions[countryFilter_field][CN]" value="1" <?php if (isset($countryList['CN'])) echo 'checked="checked"'; ?> />China<br/>
+			<input type="checkbox" name="nativeadsOptions[countryFilter_field][GB]" value="1" <?php if (isset($countryList['GB'])) echo 'checked="checked"'; ?> />UK<br/>
+			<input type="checkbox" name="nativeadsOptions[countryFilter_field][DE]" value="1" <?php if (isset($countryList['DE'])) echo 'checked="checked"'; ?> />Germany<br/>
+			<input type="checkbox" name="nativeadsOptions[countryFilter_field][FR]" value="1" <?php if (isset($countryList['FR'])) echo 'checked="checked"'; ?> />France<br/>
+			<input type="checkbox" name="nativeadsOptions[countryFilter_field][RU]" value="1" <?php if (isset($countryList['RU'])) echo 'checked="checked"'; ?> />Russia<br/>
+			<input type="checkbox" name="nativeadsOptions[countryFilter_field][IT]" value="1" <?php if (isset($countryList['IT'])) echo 'checked="checked"'; ?> />Italy<br/>
 			<input type="hidden" name="nativeadsOptions[countryFilter_field][n]" value="1" />
 		<?php
 		//echo(  $countryList["\[GE\]"] );
@@ -328,7 +329,7 @@ function nativeadsOptionsAddContent() {
 
 function plugin_add_settings_link( $links ) {
 	array_push( $links, '<a href="options-general.php?page=nativeads-settings">' . __( 'Settings' ) . '</a>' );
-	array_push( $links, '<a target="_blank" href="http://kazoon.tv/video-intext-demo/">Demo video</a>' );
+	array_push( $links, '<a target="_blank" href="http://spoti.io/en/native-advertising/">Demo video</a>' );
 	array_push( $links, '<a target="_blank" href="http://kazoon.tv/video-intext-autoplay/">Demo video autoplay</a>' );
 	array_push( $links, '<a target="_blank" href="http://kazoon.tv/native-intext-demo/">Demo image</a>' );
 	return $links;
