@@ -22,9 +22,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Native ads.**
 
-- Native advertising will play when 50%+ viewable and can be contextually targeted by country.
-- The ads are served by content.spoti.io and contextually targeted by country.
-- When there is no ad to serve, we´ll serve your twitter SocialMedia widget.
+- Native advertising is generated, paid content that has been creatively constructed and placed to flow naturally with the original content of your website.
+- Native advertising have frequency capping restricting (capping) the number of times (frequency) a specific visitor to a website is shown a particular advertisement.
+- Native advertising can be contextually targeted by country.
+- All you need is a clientID that will paste the code into your theme. The code served by content.spoti.io loads asynchronously, so it doesn’t hold up page load times.
 - Demo: http://spoti.io
 
 == Installation ==
@@ -49,6 +50,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Please visit http://spoti.io
 
 == Changelog ==
+= 0.5 =
+* New: New twitter, Facebook and Instagram native ads formats.
+
 = 0.4 =
 * Updated: Country list
 

@@ -3,7 +3,7 @@
  * Plugin Name: Native-ads
  * Plugin URI: http://spoti.io
  * Description: Simple native advertising network for mobile & PC, in the heart of your content.
- * Version: 0.4
+ * Version: 0.5
  * Author: Roberto Gomez
  * Author URI: http://spoti.io
  */
@@ -123,7 +123,7 @@ class nativeadsSettings
 
 		add_settings_section(
              'setting_section_id', // ID
-             'To get your Client ID: email: publishers@spoti.io or fill in the form and click Send mail', // Title
+             'To get your Client ID: send an email: publishers@spoti.io', // Title
              array( $this, 'print_section_info' ), // Callback
              'nativeads-contact' // Page
          );
